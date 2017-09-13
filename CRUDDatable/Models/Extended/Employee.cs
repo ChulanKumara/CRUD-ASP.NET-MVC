@@ -20,6 +20,6 @@ namespace CRUDDatable.Models
 
         // LastName
         [Required(AllowEmptyStrings = false, ErrorMessage = "Please provide the last name")]
-        public string LasttName { get; set; }
+        public string LastName { get; set; }
     }
 }
